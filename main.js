@@ -27,7 +27,6 @@ const campoSenha = document.querySelector('#campo-senha');
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     geraSenha();
 
-    
     fuction geraSenha() {
       let senha = ' ' ;
       for(let i=0; i < tamanhoSenha; i++) {
@@ -35,6 +34,6 @@ const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         numeroAleatorio = Math.floor(numeroAleatorio);
         senha = senha + letrasMaiusculas[numeroAleatorio]
       }
-        
-        campoSenha.value = letraMaiuscula;
+         campoSenha.value = letraMaiuscula;
     }
+    
